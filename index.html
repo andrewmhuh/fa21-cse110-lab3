@@ -91,11 +91,6 @@
                     <section>
                         <label>Write a champion name for the next champion:</label>
                         <input type="text">
-                        <datalist>
-                            <option>Billybob</option>
-                            <option>Joe</option>
-                            <option>Pontra</option>
-                        </datalist>
                     </section>
 
                     <section>
@@ -115,6 +110,15 @@
                 <section>
                     <label>Did you have a good week?</label>
                     <input type="checkbox">
+                </section>
+
+                <section>
+                    <label>Should we have more meetings like this?</label>
+                    <input list="vote">
+                    <datalist id="vote">
+                        <option value="Yes">
+                        <option value="No">
+                    </datalist>
                 </section>
 
                 <section>
