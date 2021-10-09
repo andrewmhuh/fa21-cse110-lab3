@@ -1,3 +1,125 @@
+/* Install new font */
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Regular.ttf);
+}
+
+/* Apply color to footer */
 footer {
     color: #b10e4f7a;
 }
+
+/* Align button */
+.button1 {
+    margin: 1mm 1mm 1mm 1mm;
+    padding: 2pt 2pt 2pt 2pt;
+    border: 3px solid black; 
+    line-height: 1em;
+
+    text-decoration: underline solid red;
+    text-align: center;
+}
+
+/* Change hover status for button*/
+button:hover {
+    color: slategrey;
+}
+
+/* Change active status for button1*/
+button.button1:active {
+    color: greenyellow;
+}
+
+/* Align margins for img + p */
+img + p {
+    margin:auto;
+}
+
+/* Change color for labels under section */
+section > label {
+    color: gray;
+}
+
+/* Change margin for section audio */
+section audio {
+    margin: 5mm 5mm 5mm 5mm;
+}
+
+/* Change the background color for the fieldset and forms*/
+fieldset, form {
+    background-color: honeydew;
+}
+
+/* Change background color for media */
+@media screen and (min-width: 100px) {
+    body {
+        background-color: lightgray;
+    }
+}
+
+/* Style borders, margins, and padding for recap section */
+#recaps {
+    margin-top: 1rem;
+    margin-bottom: 1px; 
+    margin-left: 2mm;
+    margin-right: 1cm;
+
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+    border-style: solid black;
+    border-bottom: 1ex;
+    border-top: 9px;
+    border-left: 1vh;
+    border-right: 1vh;
+}
+
+/* Chagne display and position for video */
+video {
+    display: block;
+    max-width: 500cm;
+    min-width: none;
+    position: relative;
+}
+
+/* Implement flexbox to attendance */
+.attendance {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    column-gap: 50px;
+}
+
+/* Implement grid to grid */
+.grid {
+    display: inline-grid;
+    justify-items: center;
+    column-gap: 50px;
+}
+
+/* Change min and max height and width for input textarea */
+input ~ textarea {
+    min-height: 200px;
+    max-height: 500px;
+    min-width: 200px;
+    max-width: 500px;
+}
+
+/* Change background color for link */
+a[href="https://www.leagueoflegends.com/en-us/news/tags/patch-notes/"] {
+    background-color: blanchedalmond;
+}
+
+/* Cahnge display and position for audio*/
+audio {
+    display: inline;
+    position: static;
+}
+
+/* Implement font for all elements */
+* {
+    font-family: Roboto;
+}
+
